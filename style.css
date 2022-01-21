@@ -1,0 +1,24 @@
+h3{
+    font-size: 25px !important; 
+    animation-name: dog;
+    animation-duration: 4s;
+     animation-iteration-count: infinite;
+ }
+ .btn-danger:hover{
+     background-color: blue;
+     font-size: larger;
+ }
+ Canvas{
+     border: red 2px solid;
+     animation-name: dog;
+     animation-duration: 4s;
+     animation-iteration-count: infinite;
+ }
+ @keyframes dog{
+     from{
+         box-shadow: 1px 1px 38px crimson;
+     }
+     to{
+         box-shadow: 1px 1px 38px black;
+     }
+ }
